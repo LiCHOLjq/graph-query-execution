@@ -1,0 +1,30 @@
+{
+  "predictions.csv": {
+    "sha256": "e910e0c2aaf6f7dd73de061d6890a64d51acf59a2644ae363f6fd8a319f8ca09",
+    "bytes": 8086514
+  },
+  "summary.csv": {
+    "sha256": "3600c220eae5c508e4d882c4061703a08f7753d21ee4624f210bc30da49a2a27",
+    "bytes": 56643
+  },
+  "costs.csv": {
+    "sha256": "f26c993cf224618f42763b9a0c8904546fb4276bf816cc3530be8eb78dd585dc",
+    "bytes": 7494893
+  },
+  "costs_bcr.csv": {
+    "sha256": "a3b37407fb3f5239a6ff959ccbcbb89c1f4aa447c65eeb7463f482de7590bde7",
+    "bytes": 294310
+  },
+  "router_timings.csv": {
+    "sha256": "119efc2102f119e0682a8a0d02a45ffa3fb15cbf7b5b6c9b1cdb470efe09d0de",
+    "bytes": 6681
+  },
+  "native_overhead.csv": {
+    "sha256": "1d26b4b49956b03f7e631dcb364bad822478fde9be7272ec2e3b11284cf95481",
+    "bytes": 6392
+  },
+  "folds.csv": {
+    "sha256": "8c25c97a59b4d31bec67a33b3e03c9b08418da13f01a9a686ff3f75318665e80",
+    "bytes": 6858
+  }
+}

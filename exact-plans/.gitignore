@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+fresh_run/
+generated/
+**/graph.bin
+**/hnsw_index.bin
+**/fb15k237_text.npz
+**/train.tsv
+**/entity2text*.txt
+**/entities.json
+**/relations.json
+**/queries.txt
+/ordered_access/benchmark
+/ordered_access/clock_probe

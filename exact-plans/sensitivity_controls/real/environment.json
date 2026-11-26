@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-25",
+  "queries": 80,
+  "repetitions": 3,
+  "warmup_passes": 1,
+  "rows": 2400,
+  "platform": "Windows-10-10.0.19045-SP0",
+  "python": "3.11.14 (main, Dec 26 2025, 21:31:18) [MSC v.1932 64 bit (AMD64)]",
+  "hnswlib_version": "0.8.0",
+  "cpu_affinity": [
+    4
+  ],
+  "gc_during_timing": false,
+  "hnsw_threads": 1,
+  "memory_bytes": 34088476672,
+  "timing": "One outer timer includes query setup, callback/proof construction, search, exact rerank, and conditional heap repair. Nested prefix timer is diagnostic; graph counters are enabled for every method.",
+  "limitations": [
+    "Fixed existing graph, vectors, queries, and index seed; repetitions are not independent data samples.",
+    "ef is shared across integrations but is not an equal bound on graph visits or predicate calls.",
+    "Python callback transitions and GIL costs are charged; the experiment does not isolate their causal contribution.",
+    "On an expected contiguous-array RuntimeError no labels are returned; raw prefix is empty, and the practical policy executes exact forward repair.",
+    "Complete in-filter or post-filter output is approximate; acceptance of k legal labels is not a recall certificate."
+  ],
+  "source_hash": "70feac680610530c3613ca5bb6c2d65ac502e9580586c245c7a5de27ee481e2d",
+  "csv_hash": "6ae1896a3ab5951f3b1c246c6e30ad88e287bc91bbaeb5b20db60ce37d89672e",
+  "input_hashes": {
+    "fb15k237_text.npz": "68233ce9bc56ee7ee1fc70ecf6a691de5bfcda7bbacc1f73f23f2259b0c620b7",
+    "queries.json": "7b757e4ebed2286772ec8bf56773522961d02b09bba2b3cac222624a47869d30",
+    "truth.json": "ce08ae831dcb7d3148ecdb892e430e7f0abee50a2556f489a8f515b5fc2c5d43",
+    "hnsw_index.bin": "a4b8d6c5701418846ab73f1f1650be241e8e1aa7fd8b3f751cc0e7c0d32676ef"
+  }
+}

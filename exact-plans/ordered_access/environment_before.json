@@ -1,0 +1,20 @@
+{
+  "captured_at_utc": "2026-10-28T09:06:20.459965+00:00",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "affinity": [
+    4
+  ],
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "flags": "-O3 -DNDEBUG -std=c++17 -Wall -Wextra",
+  "sha256": {
+    "source/benchmark.cpp": "715b5c248903267e80760a4bf3fa94799ed8344af832045be6f67c77c11425a1",
+    "source/clock_probe.cpp": "480ca719711c05f9d6e1533e64365dab00b660a5522648ddbd47ec94d23205e8",
+    "source/engine.cpp": "5f6ed54e8daa926b8152ea123d9ba04f9599da0ad2441cdfda8b4ff26a77d2e5",
+    "source/environment.py": "c30f1705e31e3b56805bbea7d9bb52c694320057623040846b6b0d4ccd16880f",
+    "source/freeze_protocol.py": "52fa47bb1805808092596ec4a9af036266666008d4998398f7465254d0fd9bbe",
+    "source/run_formal.sh": "d648912b1c47a80bcdec572acaf72c0a5093c4bd53112ca1acac34ccd8a08c7e",
+    "benchmark": "8368e96d1058ca6f5f252e348644adc69322c2e1b6f3f4480e060e0f61eff88d",
+    "protocol.json": "ffe66d7408faaae02fb2f5de2db4c87f7b62d86813ff17dd73a29283771a1141"
+  },
+  "limitations": "WSL virtual CPU affinity only; no exclusive physical-core ownership, frequency or turbo control; no Python garbage collector in timed C++ kernels."
+}

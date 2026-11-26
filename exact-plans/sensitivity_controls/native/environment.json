@@ -1,0 +1,21 @@
+{
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "cpu_affinity": [
+    4
+  ],
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "flags": "-O3 -DNDEBUG -std=c++17 -Wall -Wextra",
+  "hashes": {
+    "allocation_control.cpp": "e0e3879a9a4eaa29eb7ea794f165cf98721a2ea07071a2b5d2312bf6bef7d4d4",
+    "degree_sweep.cpp": "d75fe25a36624d49b771829f51211654161087a1bc0b41fa2eed12e792edcabe",
+    "dimension_gaussian.cpp": "23381e9bd85d2c82c1960929aa1c814aa5782d4135449901e88574152d3d2078",
+    "dimension_origin.cpp": "d51d3da612433f0138e60dab859356de65b266b69bf9f1e5c6f0da69997021bc",
+    "landscape_base.cpp": "1366a32273e3e9e382449b98ed37a31f35ace13b4f8c3002899d181da2658550",
+    "strong_base.cpp": "e2526a72a81fac143e001880095176c3149b5ea06e0b8afed1c36ac5e956b2a8",
+    "degree_sweep": "2f8cc20147cc5ad8208fbd8970716657c1e156f0f9915c7781966de02439bbc1",
+    "dimension_gaussian": "0a38f216e625cc820f9c35da1d32c4137f13d458db3eaca388a86d3698351481",
+    "dimension_origin": "379c7d9c8b6ed519e8e32d33807006d7c1aca4f464b3d437ddd46ac8024a8688",
+    "allocation_control": "7b8640732efcd61497e29730e06940557a8a35fe7cdd947277500052739cf814",
+    "protocol.json": "b8d6c31d57e7adb5ef9ba1fcd1cc7206444a17010415ac6c9c6e0297ed560cb2"
+  }
+}

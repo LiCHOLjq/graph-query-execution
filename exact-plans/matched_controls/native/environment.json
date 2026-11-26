@@ -1,0 +1,17 @@
+{
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "cpu_affinity": [
+    4
+  ],
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "flags": "-O3 -DNDEBUG -std=c++17 -Wall -Wextra",
+  "hashes": {
+    "k_sweep.cpp": "f3b73e028e1675a4fc9dc522886305be793ab0b31fd257b894e80215d16171f0",
+    "strong_base.cpp": "e2526a72a81fac143e001880095176c3149b5ea06e0b8afed1c36ac5e956b2a8",
+    "k_sweep": "650a0f667cd05f66058a2d4888b3810c535ad4e337be032b386854eb466de806",
+    "clock_probe.cpp": "d10b7b6f524619f60f4b8b0188e948f9296c98409b5ba2e0f13d0cbbfdb5b5ad",
+    "clock_probe": "59b1a9e845d9196912ef02bdc76474e806995eb552a5df140b2634afc54a0b64",
+    "protocol.json": "282a73691f26b0108c70f88736edf965a1bd57a7f01a160af5e60222bce2557c",
+    "run_local.sh": "66031d566078913a07c3866e3cbf44c62287e031a0ea262b598f3bad11082e4e"
+  }
+}

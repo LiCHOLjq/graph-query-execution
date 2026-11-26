@@ -1,0 +1,2 @@
+PASS: 12 graphs x 3 anchors x 6 lengths x 3 k x 4 quanta x 3 methods = 7776 exact comparisons; explicit all-zero vector ties, empty/underfilled included
+PASS: 324 additional degree-8/new-k exact comparisons, all-zero ties and empty-anchor included

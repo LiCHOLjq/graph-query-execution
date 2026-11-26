@@ -1,0 +1,7 @@
+numpy==2.4.0
+scipy
+scikit-learn==1.8.0
+threadpoolctl
+hnswlib==0.8.0
+psutil==7.2.2
+matplotlib

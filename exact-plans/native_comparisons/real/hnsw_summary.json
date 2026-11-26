@@ -1,0 +1,231 @@
+{
+  "vertices": 14505,
+  "dimension": 128,
+  "query_count": 80,
+  "repetitions": 3,
+  "prefix_executions": 960,
+  "baseline_executions": 480,
+  "hnsw_version": "0.8.0",
+  "M": 16,
+  "ef_construction": 200,
+  "seed": 20261023,
+  "index_build_seconds": 1.1873978000003262,
+  "index_file_bytes": 9576508,
+  "rss_before_index": 156618752,
+  "rss_after_index": 174137344,
+  "python": "3.11.14 (main, Dec 26 2025, 21:31:18) [MSC v.1932 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "processor": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+  "logical_cpu": 24,
+  "physical_cpu": 16,
+  "memory_bytes": 34088476672,
+  "cpu_frequency_mhz": {
+    "current": 3200.0,
+    "min": 0.0,
+    "max": 3200.0
+  },
+  "affinity": [
+    4
+  ],
+  "gc_during_timing": false,
+  "openmp_threads": 1,
+  "empty_truth_queries": 0,
+  "eligible_counts": [
+    4,
+    2,
+    5,
+    1,
+    16,
+    242,
+    4,
+    1,
+    4,
+    1,
+    14,
+    3,
+    7,
+    1,
+    1,
+    2,
+    1,
+    16,
+    1,
+    84,
+    21,
+    22,
+    10,
+    122,
+    410,
+    26,
+    5,
+    6,
+    43,
+    59,
+    16,
+    26,
+    2,
+    28,
+    29,
+    150,
+    168,
+    33,
+    563,
+    69,
+    368,
+    1,
+    374,
+    80,
+    743,
+    16,
+    1032,
+    79,
+    38,
+    121,
+    1065,
+    8,
+    53,
+    1016,
+    78,
+    1,
+    3611,
+    2,
+    519,
+    745,
+    47,
+    43,
+    600,
+    223,
+    161,
+    139,
+    112,
+    264,
+    3612,
+    3612,
+    23,
+    3717,
+    1,
+    355,
+    1522,
+    932,
+    7,
+    63,
+    1533,
+    248
+  ],
+  "exact_baselines": {
+    "ForwardGF": {
+      "mean": 0.6587520833333333,
+      "median": 0.10314999999999999,
+      "p95": 3.2275349999999694,
+      "iqr": 0.5512
+    },
+    "ColdMemo": {
+      "mean": 8.5662,
+      "median": 7.4559,
+      "p95": 14.221879999999997,
+      "iqr": 2.40475
+    }
+  },
+  "budgets": [
+    {
+      "budget": 64,
+      "prefix_ms": {
+        "mean": 0.5855004166666666,
+        "median": 0.401,
+        "p95": 1.67147,
+        "iqr": 0.5675250000000001
+      },
+      "repair_ms": {
+        "mean": 0.5737441666666667,
+        "median": 0.0811,
+        "p95": 2.5903999999999607,
+        "iqr": 0.500875
+      },
+      "mean_recall": 0.4483035714285714,
+      "underfill_rate": 0.75,
+      "underfill_policy_ms": 0.7740925,
+      "underfill_policy_recall": 1.0,
+      "forward_break_even_probability": 0.12767304823723705,
+      "cold_break_even_probability": 13.909857471317789
+    },
+    {
+      "budget": 256,
+      "prefix_ms": {
+        "mean": 0.9725079166666667,
+        "median": 0.66735,
+        "p95": 2.5244899999999952,
+        "iqr": 0.919975
+      },
+      "repair_ms": {
+        "mean": 0.5479608333333333,
+        "median": 0.0748,
+        "p95": 2.392184999999963,
+        "iqr": 0.445175
+      },
+      "mean_recall": 0.5783035714285715,
+      "underfill_rate": 0.6,
+      "underfill_policy_ms": 1.0473375,
+      "underfill_policy_recall": 1.0,
+      "forward_break_even_probability": -0.5725880651445587,
+      "cold_break_even_probability": 13.858092807728047
+    },
+    {
+      "budget": 1024,
+      "prefix_ms": {
+        "mean": 2.12922,
+        "median": 1.6015,
+        "p95": 4.74405,
+        "iqr": 1.5308000000000002
+      },
+      "repair_ms": {
+        "mean": 0.5010545833333333,
+        "median": 0.0598,
+        "p95": 2.8619299999999797,
+        "iqr": 0.2968
+      },
+      "mean_recall": 0.629375,
+      "underfill_rate": 0.5375,
+      "underfill_policy_ms": 2.2049583333333334,
+      "underfill_policy_recall": 1.0,
+      "forward_break_even_probability": -2.934745964968887,
+      "cold_break_even_probability": 12.846863823053212
+    },
+    {
+      "budget": 4096,
+      "prefix_ms": {
+        "mean": 5.437988333333333,
+        "median": 4.70565,
+        "p95": 8.429295,
+        "iqr": 2.125800000000001
+      },
+      "repair_ms": {
+        "mean": 0.4273779166666667,
+        "median": 0.07045000000000001,
+        "p95": 2.4653349999999876,
+        "iqr": 0.24004999999999999
+      },
+      "mean_recall": 0.7627083333333333,
+      "underfill_rate": 0.4375,
+      "underfill_policy_ms": 5.47268375,
+      "underfill_policy_recall": 0.9975,
+      "forward_break_even_probability": -11.182693498240726,
+      "cold_break_even_probability": 7.319544470301948
+    }
+  ],
+  "limitations": [
+    "Windows local machine timings; do not compare absolute latency with Linux C++ results",
+    "HNSW public API searches restart; no frontier-retention claim",
+    "HNSW is float32, exact re-ranking is float64 dot(delta,delta); ID breaks exact distance ties",
+    "single HNSW index seed; graph query random seed fixed",
+    "TFIDF-SVD is corpus-derived lexical embedding; not pretrained semantic embedding",
+    "independent fallback sweep is measured-cost interpolation, not a calibrated recall controller",
+    "underfill acceptance does not certify recall"
+  ],
+  "hashes": {
+    "benchmark_hnsw.py": "d2e527caa62b67eba11883aa20e2609d078774f4c81988dbfcde958fa691f4a0",
+    "hnsw_raw.csv": "58ca70acc0d002bc317662e0bf886a4cb7ce6f0f21165b6651cf968ebf92288e",
+    "exact_raw.csv": "0130cc6c4dafab0d8edc08851231011e69a973a949319bc71b9963b1aff0b38d",
+    "mixed_fallback.csv": "8215711d6e8daa4218615d1332f1015808b02c57986d85322a6155681233f89d",
+    "hnsw_index.bin": "a4b8d6c5701418846ab73f1f1650be241e8e1aa7fd8b3f751cc0e7c0d32676ef"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "utc_started": "2026-10-23T04:51:17.558267+00:00",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "Linux-6.17.0-1033-oem-x86_64-with-glibc2.39",
+  "processor": "x86_64",
+  "cpu_count": 72,
+  "affinity": [
+    4
+  ],
+  "machine": "x86_64",
+  "dependencies": "Python standard library only",
+  "source_sha256": {
+    "benchmark.py": "1547673455af56134a09c8a2ef3e634e81bc7a9cc29f1897e413a8087a964bd8",
+    "test_engine.py": "01817b1339c7da4df318c3ca115712d644b98455ed5acd09eae08f9ea3fc2118",
+    "workloads.py": "a50b16fdf305b6391cc212f5cb06d062451e6ea4d6fdbc363c3e3c85fce6738e",
+    "engine.py": "919c0672e8557606fc7d9c794d9b825aec620fd33d233e6f5aed4aae1ce29712",
+    "summarize.py": "03214863cc1f07fdf7695f7888b080d15d43d652327ca501c5d1f077cc1f7267"
+  },
+  "cpu_model": "Intel(R) Xeon(R) w9-3475X"
+}

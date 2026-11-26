@@ -1,0 +1,402 @@
+[
+  {
+    "n": 600,
+    "family": "shared_hubs",
+    "correlated": true,
+    "seed": 0,
+    "index_ms": 26.637858,
+    "graph_digest": "89560f0b198f5fcb26d1821bc8575231c11b23b620ad000dbb37b1777f2ad325",
+    "vector_digest": "21468a7037d57bb8aab88a4d88c5b6502a472814dfdda48517c93b14870b3af2",
+    "index_digest": "e2d7e0efaf4cd49a94cca315bf1dacd07dd9aee4e1a1ac51f9e4150db347c85c"
+  },
+  {
+    "n": 600,
+    "family": "shared_hubs",
+    "correlated": true,
+    "seed": 1,
+    "index_ms": 25.180127,
+    "graph_digest": "695874dd8571d3089f96f2725e36549ba9aa8db4e6caea95ec52d07cc7d912e3",
+    "vector_digest": "e885367b372436fec4eef019e0a571ebabf66086bb109bfb4881d3f746178ebe",
+    "index_digest": "c9500cd622711a17a643a19ff3d6526815ddfcdfbb48404528446fc0213bf48c"
+  },
+  {
+    "n": 600,
+    "family": "shared_hubs",
+    "correlated": true,
+    "seed": 2,
+    "index_ms": 25.12837,
+    "graph_digest": "9fa29e83ab517c6666361c17359f6efa90c20b92dae6cff403694ba66f443b0b",
+    "vector_digest": "5c039e5844cd49cff2dd3710f1def2c4c12f3297b928c0bbb2d57f18653ee0f1",
+    "index_digest": "e3c7895bf67a73ebb12ca69c57918e61e32e60759bff90623498a89fc6dd9a74"
+  },
+  {
+    "n": 600,
+    "family": "shared_hubs",
+    "correlated": true,
+    "seed": 3,
+    "index_ms": 27.397725,
+    "graph_digest": "6514df256f45834ba6b070b3cfcfbb4dfb39d57f16dc0027c4cbec80dd44f3b9",
+    "vector_digest": "2fefa1ee60f02164a2adb7c75c8893c87168306ad0793f6da0487ab1585fbafd",
+    "index_digest": "ca8b30c328c0211d19c2578e27f820862a558a617096c9c02a4e75c726fadd63"
+  },
+  {
+    "n": 600,
+    "family": "shared_hubs",
+    "correlated": true,
+    "seed": 4,
+    "index_ms": 25.086061,
+    "graph_digest": "b1b2faf5d9ef0605d6c835a5671897af4144a4fb8ee45feed5e933d73d85ba9f",
+    "vector_digest": "0b6effb77ed81692f1a7b622cb1586676ab24778f72b6339276031984c8e566c",
+    "index_digest": "e571bfe0bf3ab4ca0de7ac224d022039b17dc9acae91fe541eb341160e79567e"
+  },
+  {
+    "n": 600,
+    "family": "shared_hubs",
+    "correlated": false,
+    "seed": 0,
+    "index_ms": 25.175565,
+    "graph_digest": "89560f0b198f5fcb26d1821bc8575231c11b23b620ad000dbb37b1777f2ad325",
+    "vector_digest": "3b3dbaf8caf3b6619a91b661d214047114d41c147b7bfed8f30996682d449011",
+    "index_digest": "f3e8f85a6f91d899d2fb1d467f3ac57bcc3e8f789f7a95ad6d405d2b15e83859"
+  },
+  {
+    "n": 600,
+    "family": "shared_hubs",
+    "correlated": false,
+    "seed": 1,
+    "index_ms": 24.981098,
+    "graph_digest": "695874dd8571d3089f96f2725e36549ba9aa8db4e6caea95ec52d07cc7d912e3",
+    "vector_digest": "b86549a93a1ce6d93c087d258d745031e670f323c1bbabdd89b7673737a80a9b",
+    "index_digest": "01fb054d6e02970d8fd3a7ae12379ecb35d67843957a8371cad5f6adc61c3738"
+  },
+  {
+    "n": 600,
+    "family": "shared_hubs",
+    "correlated": false,
+    "seed": 2,
+    "index_ms": 25.239814,
+    "graph_digest": "9fa29e83ab517c6666361c17359f6efa90c20b92dae6cff403694ba66f443b0b",
+    "vector_digest": "0bb379fe31178a8acb58bc3aa4dcaa28fea67e6d6f550e4625549f8357c1f27b",
+    "index_digest": "cb2fc58855bb4a8dbcdaf7648ca607297f95fb70e1605f934662cd6cc4364993"
+  },
+  {
+    "n": 600,
+    "family": "shared_hubs",
+    "correlated": false,
+    "seed": 3,
+    "index_ms": 25.813099,
+    "graph_digest": "6514df256f45834ba6b070b3cfcfbb4dfb39d57f16dc0027c4cbec80dd44f3b9",
+    "vector_digest": "c22ef950ce7274d8decc4bfee5ed9a396764bb889bb812dcef5481d9c5ddbacb",
+    "index_digest": "260838736cbd26639eecbfc51ef8674737f8246e113e7cbf1a79a1c335c75baa"
+  },
+  {
+    "n": 600,
+    "family": "shared_hubs",
+    "correlated": false,
+    "seed": 4,
+    "index_ms": 25.451895,
+    "graph_digest": "b1b2faf5d9ef0605d6c835a5671897af4144a4fb8ee45feed5e933d73d85ba9f",
+    "vector_digest": "bc69b4165c2ef2b14473dd70fe9b78b18b0063532d7d7e5254ee00ffc4a25d9f",
+    "index_digest": "3ec4f05d90d626c101eae7afb37bc5a018c8c02f140321444b6a1f2658a1de82"
+  },
+  {
+    "n": 600,
+    "family": "distributed",
+    "correlated": true,
+    "seed": 0,
+    "index_ms": 25.244553,
+    "graph_digest": "f34711b35df62ac51fe81c065268d59d542a857a190a42777672978c48477f6d",
+    "vector_digest": "3e6748884f68b000c9f452b557981318a0373e89c7a6ad9485e9ca756ccbdb4e",
+    "index_digest": "28b0b110aff772993a64f8b30692ba2fab56712d494c6048ff21cb3b3818773e"
+  },
+  {
+    "n": 600,
+    "family": "distributed",
+    "correlated": true,
+    "seed": 1,
+    "index_ms": 25.779029,
+    "graph_digest": "7890cf60764e71c02a75bf05c52d5273445b7ecc92282b5e356a376e5e01acc5",
+    "vector_digest": "566acd340f4295f061b7c8e714d55a973280ea94a9f11fa2d1c6d22ef1f294c9",
+    "index_digest": "9b87b8503e2350b28be5a9c65d62113dc9251ea1728cfd1959e5c4d60e3a2c0c"
+  },
+  {
+    "n": 600,
+    "family": "distributed",
+    "correlated": true,
+    "seed": 2,
+    "index_ms": 25.208419,
+    "graph_digest": "e095b7ac080caf23b9b8bb6a223d0393a16425f92c0c313e11a7ddc19456483c",
+    "vector_digest": "980c0f2a24aa385f953285dabbf3fb1757da1920e83b5d96cd8cfccacde09684",
+    "index_digest": "4292fceb58c3b1eee56ee8d3bf32573035139ab5dfaba88c705998555aa5c482"
+  },
+  {
+    "n": 600,
+    "family": "distributed",
+    "correlated": true,
+    "seed": 3,
+    "index_ms": 25.074841,
+    "graph_digest": "e14b35ef4965fb83a1ef5dddce3df4a26af3932d79938437347f49a31c88deb7",
+    "vector_digest": "49129411e5f189d13337e55bc70741d98ac962387514c9415df598ddd5c09e1b",
+    "index_digest": "21a044b7cbe3a86069e1e989ed23fc45bbde52cf448807a49583f5890004f2c7"
+  },
+  {
+    "n": 600,
+    "family": "distributed",
+    "correlated": true,
+    "seed": 4,
+    "index_ms": 25.371272,
+    "graph_digest": "2cf43fd4c69db9032fa54d9f058468c7a6c6e9f21666a08358997440a81a063d",
+    "vector_digest": "f2b5e59c4c1569ddb93eca3e1b489a43a4e2d00ce24ab74ba54b344f73312487",
+    "index_digest": "f4652f1e26f1647b11734f223a14c9280602f53bf3a1c46589caddcc6f4cb05d"
+  },
+  {
+    "n": 600,
+    "family": "distributed",
+    "correlated": false,
+    "seed": 0,
+    "index_ms": 24.929761,
+    "graph_digest": "f34711b35df62ac51fe81c065268d59d542a857a190a42777672978c48477f6d",
+    "vector_digest": "6e3ad756ff6b752908a984c8c4a7fae9f9e30736f10ace6cc2e0fbf067e517e4",
+    "index_digest": "dac2cf28cd6567a9785987081344da9df7876eafcb88ce669451c9dcdaf7b5fb"
+  },
+  {
+    "n": 600,
+    "family": "distributed",
+    "correlated": false,
+    "seed": 1,
+    "index_ms": 25.185411,
+    "graph_digest": "7890cf60764e71c02a75bf05c52d5273445b7ecc92282b5e356a376e5e01acc5",
+    "vector_digest": "acd883263423de1b4747349c90f9840a90ff35c3462fc4df3f4ac415e52db1a4",
+    "index_digest": "b01b8c6c178c379181925853136526bd2352fccd36dc94be5e0b6ad9fb2cdc9e"
+  },
+  {
+    "n": 600,
+    "family": "distributed",
+    "correlated": false,
+    "seed": 2,
+    "index_ms": 25.128314,
+    "graph_digest": "e095b7ac080caf23b9b8bb6a223d0393a16425f92c0c313e11a7ddc19456483c",
+    "vector_digest": "48d8b3ea74cc95c237f181a40587a1f762a9c01d55b85713963316f5e5efe76d",
+    "index_digest": "7306e237e3dd4e58d6ccf7984219a5bc31fe0b8fcbb5b32c7b8afb7394049264"
+  },
+  {
+    "n": 600,
+    "family": "distributed",
+    "correlated": false,
+    "seed": 3,
+    "index_ms": 25.990058,
+    "graph_digest": "e14b35ef4965fb83a1ef5dddce3df4a26af3932d79938437347f49a31c88deb7",
+    "vector_digest": "620518777f67f601cc97861f8820bfb5fa57c48e9995759ccdeb1697097dcde7",
+    "index_digest": "43536784c39093eb62e82865065e78c82ae9293daa2d795cb79c5c8c528144c8"
+  },
+  {
+    "n": 600,
+    "family": "distributed",
+    "correlated": false,
+    "seed": 4,
+    "index_ms": 25.051563,
+    "graph_digest": "2cf43fd4c69db9032fa54d9f058468c7a6c6e9f21666a08358997440a81a063d",
+    "vector_digest": "f41a0165e562796fc9e9c47d49fb3ad84950558e84bf6040eaa1a0b3017dc6c2",
+    "index_digest": "d745254cf16181095b18937a657cb6e72fcadcb18758aa50442cdb9e70d7c67d"
+  },
+  {
+    "n": 1200,
+    "family": "shared_hubs",
+    "correlated": true,
+    "seed": 0,
+    "index_ms": 51.848503,
+    "graph_digest": "7fd553237fb331c807161b753b9644712d290cd6903ad3ee0db1921689558915",
+    "vector_digest": "e0ba0b58c8583450a5aac2faa66ce5061f14c5def550b97ac0f6ebb0edb86bba",
+    "index_digest": "c67fd60a12a859bc0ebb1b34a7a00f6281ce654f88ce30cdb702f239041c20af"
+  },
+  {
+    "n": 1200,
+    "family": "shared_hubs",
+    "correlated": true,
+    "seed": 1,
+    "index_ms": 50.26708,
+    "graph_digest": "8242737008b887a590934c0ad6a3bd704650d22af53e2dcb39c65df30bfeed28",
+    "vector_digest": "59f6878d8ecb5cbdcabce15f486012b378c9785c59f55d7f4442757c3a11c9dc",
+    "index_digest": "c913348e3e1cfd9e62a9eef8d98195876135c8c29724afd316e6214b45c69042"
+  },
+  {
+    "n": 1200,
+    "family": "shared_hubs",
+    "correlated": true,
+    "seed": 2,
+    "index_ms": 49.957444,
+    "graph_digest": "c583b9250fc55c4c2e3dcd86ba8713c637e2fd0f412563172a1a179f481b3c82",
+    "vector_digest": "8333dd5e5bca9bbcc25eb6646ec0e3f08de5e874d1b55cdef21bc49334bd8a47",
+    "index_digest": "d1e553289168f9068e85fa99d73f69124670bf455fb0efe5fa7d713157064bde"
+  },
+  {
+    "n": 1200,
+    "family": "shared_hubs",
+    "correlated": true,
+    "seed": 3,
+    "index_ms": 50.318795,
+    "graph_digest": "0b06fbeafa727a78e880e824a7613dbb10dcad02376bb9f2aaeb5620ac2ca236",
+    "vector_digest": "849e6f11459ffd0823cd9fd57526c8b0ffe3d799e5b3e85023384e00f687ecea",
+    "index_digest": "30668025020e040a0e3bcadb578ed1be0840ef401e7b0fcce9649c6bea577cea"
+  },
+  {
+    "n": 1200,
+    "family": "shared_hubs",
+    "correlated": true,
+    "seed": 4,
+    "index_ms": 50.867849,
+    "graph_digest": "e3873524e8725045c4c64e8f34d6755381d220eab4f662659a822b8bee0a013d",
+    "vector_digest": "8034d62244be05ae21942f6c04a25f5371ee1fe903df85d42549b3204c3b29af",
+    "index_digest": "c2b291ba59c986242b358fb6e517631b8eb2f4ed34ec52a2ad048c5420370aa8"
+  },
+  {
+    "n": 1200,
+    "family": "shared_hubs",
+    "correlated": false,
+    "seed": 0,
+    "index_ms": 50.495493,
+    "graph_digest": "7fd553237fb331c807161b753b9644712d290cd6903ad3ee0db1921689558915",
+    "vector_digest": "0e2bc8b31db62241400f86930651047b009dff0a6dcc11a53b3d1befe4c72ded",
+    "index_digest": "17f4a037345831eb7f4c868924b86257792d94225222a796dea053c1f7dc6e38"
+  },
+  {
+    "n": 1200,
+    "family": "shared_hubs",
+    "correlated": false,
+    "seed": 1,
+    "index_ms": 50.698166,
+    "graph_digest": "8242737008b887a590934c0ad6a3bd704650d22af53e2dcb39c65df30bfeed28",
+    "vector_digest": "4cb2fabaca3e54d4b6ebec5b3984b94a78935361515115f08f661db2e1a6e811",
+    "index_digest": "0047fd2b8780ababd4f7dde11e431c381f61d005faaafe3531a7505b62dafe1a"
+  },
+  {
+    "n": 1200,
+    "family": "shared_hubs",
+    "correlated": false,
+    "seed": 2,
+    "index_ms": 50.042539,
+    "graph_digest": "c583b9250fc55c4c2e3dcd86ba8713c637e2fd0f412563172a1a179f481b3c82",
+    "vector_digest": "4ad9bec061ab61e42c4cb4b49b426d9b7b01b4755d8bbb45cdd97a1ec3c453ff",
+    "index_digest": "7e0b4ebced9a0b5870d1c505914e3166e26e16e866d7e93cd42c9b8a702a827d"
+  },
+  {
+    "n": 1200,
+    "family": "shared_hubs",
+    "correlated": false,
+    "seed": 3,
+    "index_ms": 50.508238,
+    "graph_digest": "0b06fbeafa727a78e880e824a7613dbb10dcad02376bb9f2aaeb5620ac2ca236",
+    "vector_digest": "c8a9785445fe377c96d1ddfdae61f8a2e1780aec418afff312c512d7b0f6a031",
+    "index_digest": "11471a8aa930da1b7f213d5430344993c8e12f62fdc107da57289a1b967563dc"
+  },
+  {
+    "n": 1200,
+    "family": "shared_hubs",
+    "correlated": false,
+    "seed": 4,
+    "index_ms": 50.081043,
+    "graph_digest": "e3873524e8725045c4c64e8f34d6755381d220eab4f662659a822b8bee0a013d",
+    "vector_digest": "e0727aa89431e5e94ccefafb0c84ef98c1b10fbcaa55673e107dcc0dfbbc6141",
+    "index_digest": "f973951ff7ea76c189164c2a25027331eeedb40859603827f5ac6bafab6621a6"
+  },
+  {
+    "n": 1200,
+    "family": "distributed",
+    "correlated": true,
+    "seed": 0,
+    "index_ms": 50.43076,
+    "graph_digest": "be4055a2acfe1e3cde3ba194110fa340798cd082d83ec13a496ff8815079e581",
+    "vector_digest": "1e07c1adeb3ac28bfb5d8036aaace8246261eba675c18982ae0e0b036477a828",
+    "index_digest": "f4cfa3250f6a4c63f32544f0ef7bf27058ea1c10c30f9238b690cb72c296a732"
+  },
+  {
+    "n": 1200,
+    "family": "distributed",
+    "correlated": true,
+    "seed": 1,
+    "index_ms": 49.951157,
+    "graph_digest": "d98e416a376f472d74db7a48451985a38a990db074538ad0bad4f327f2498f08",
+    "vector_digest": "ec334102ce6bd08c336abf07e5784e15c7b7752967d351ce6181a91a70531ed5",
+    "index_digest": "3221b0260e2e8330ad95092cee708ee88135c46d83beafd6493691de63bbb16b"
+  },
+  {
+    "n": 1200,
+    "family": "distributed",
+    "correlated": true,
+    "seed": 2,
+    "index_ms": 55.653924,
+    "graph_digest": "5056ef086a514a1121a9770d79c83732e9215cbf11c37713a282bb6276aed11a",
+    "vector_digest": "ae6372947a43a53e31a9471c7afbde156c37a2025c180474523853369991b8fc",
+    "index_digest": "d4bda2771c3593d99aeccddf825450f1aeb07a800052b2d0f76df65bfc459365"
+  },
+  {
+    "n": 1200,
+    "family": "distributed",
+    "correlated": true,
+    "seed": 3,
+    "index_ms": 50.168504,
+    "graph_digest": "8ff644d03aa359e1a04220eaaa2c5969c6264759b47c555f27c5c583f714b00c",
+    "vector_digest": "81a15be102420dbde3623d4349682ed724cbbf80b5d8c8278cccb5ef28689c4e",
+    "index_digest": "14faae847dd06ac285fd351153352d614f4d0b5c5a64305b7cb4ae540294c18c"
+  },
+  {
+    "n": 1200,
+    "family": "distributed",
+    "correlated": true,
+    "seed": 4,
+    "index_ms": 50.827587,
+    "graph_digest": "e59365048c440f9ab37cbe637226928d98c8d8ed181020529f4e2cd66d25688b",
+    "vector_digest": "c52bc9e25196252dd30415985d7258efcdeaf12f42cc487d22bac963c483a2b4",
+    "index_digest": "8fd958e7b39dea856e0f7d07e845c94ac3b7a33eaafb0be647a86be19d1b4bff"
+  },
+  {
+    "n": 1200,
+    "family": "distributed",
+    "correlated": false,
+    "seed": 0,
+    "index_ms": 51.851272,
+    "graph_digest": "be4055a2acfe1e3cde3ba194110fa340798cd082d83ec13a496ff8815079e581",
+    "vector_digest": "3d2773f0f65243329368f551ecc34cc764cf4bdcfefdb6937b50d3ec639281dd",
+    "index_digest": "21591c4c13bf973f44d8f888f765edaee5b5245425c8c491252f4631596db4e7"
+  },
+  {
+    "n": 1200,
+    "family": "distributed",
+    "correlated": false,
+    "seed": 1,
+    "index_ms": 52.379857,
+    "graph_digest": "d98e416a376f472d74db7a48451985a38a990db074538ad0bad4f327f2498f08",
+    "vector_digest": "0e8db95ab6cf5ff1b5024da88b5726b33b58689e04411edd0c5bd3347a98d602",
+    "index_digest": "1f46a62da8d46e6f5a0012f25b75178aa8b959fdeae525d9544d411589b9a40e"
+  },
+  {
+    "n": 1200,
+    "family": "distributed",
+    "correlated": false,
+    "seed": 2,
+    "index_ms": 50.352698,
+    "graph_digest": "5056ef086a514a1121a9770d79c83732e9215cbf11c37713a282bb6276aed11a",
+    "vector_digest": "acd04606b0c748a64e7e369f89710528ebeda59960290680f2ecec1cdab8a9eb",
+    "index_digest": "8b4efee08669887a3ecb842f67c2b41a45c1f5e4050fc4e23bb9608bf72f92e0"
+  },
+  {
+    "n": 1200,
+    "family": "distributed",
+    "correlated": false,
+    "seed": 3,
+    "index_ms": 50.068359,
+    "graph_digest": "8ff644d03aa359e1a04220eaaa2c5969c6264759b47c555f27c5c583f714b00c",
+    "vector_digest": "b59efdcee1efdfc146ca2ce01bcb1103aea80e62db673d5f50bd0a8476383693",
+    "index_digest": "49581b6cb7b6e3a1e9e08197c585009c61ae59de2e9823f669ae95f7d1e8ada6"
+  },
+  {
+    "n": 1200,
+    "family": "distributed",
+    "correlated": false,
+    "seed": 4,
+    "index_ms": 50.735085,
+    "graph_digest": "e59365048c440f9ab37cbe637226928d98c8d8ed181020529f4e2cd66d25688b",
+    "vector_digest": "e586f0861c547b1392fcca934857949840bde7bceee4f069d8d1e58217687b93",
+    "index_digest": "d3fe26baa9672c0be380401287a0972200fe633000ab1af0cd00941e20288ed7"
+  }
+]

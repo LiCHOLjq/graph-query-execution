@@ -1,0 +1,119 @@
+{
+  "timing": "Actual executed early-return branch with one outer end-to-end timer; prior component reconstructions preserved separately",
+  "queries": 80,
+  "warmup_passes": 1,
+  "repetitions": 3,
+  "policy_executions": 960,
+  "exact_baseline_executions": 720,
+  "platform": "Windows-10-10.0.19045-SP0",
+  "python": "3.11.14 (main, Dec 26 2025, 21:31:18) [MSC v.1932 64 bit (AMD64)]",
+  "cpu_affinity": [
+    4
+  ],
+  "gc_during_timing": false,
+  "hnsw_threads": 1,
+  "baselines": {
+    "ForwardSort": {
+      "mean": 0.5734454166666667,
+      "median": 0.07655,
+      "p95": 2.7804349999999705,
+      "iqr": 0.501325
+    },
+    "ForwardTopKHeap": {
+      "mean": 0.5571070833333334,
+      "median": 0.08555,
+      "p95": 2.625614999999972,
+      "iqr": 0.5099500000000001
+    },
+    "ForwardTopKPartition": {
+      "mean": 0.5988229166666666,
+      "median": 0.10625,
+      "p95": 4.2462299999999935,
+      "iqr": 0.507075
+    }
+  },
+  "strongest_mean_baseline": "ForwardTopKHeap",
+  "budgets": [
+    {
+      "budget": 64,
+      "ms": {
+        "mean": 0.679775,
+        "median": 0.41485,
+        "p95": 2.665394999999996,
+        "iqr": 0.563025
+      },
+      "recall": 1.0,
+      "fallback_rate": 0.75,
+      "early_returns": 60,
+      "mean_ratio_to_strongest": 1.2201873218568842,
+      "paired_bootstrap95ci": [
+        0.8957880931375797,
+        1.7883088107181362
+      ],
+      "faster_queries": 12
+    },
+    {
+      "budget": 256,
+      "ms": {
+        "mean": 1.0529879166666667,
+        "median": 0.7667,
+        "p95": 2.6437599999999932,
+        "iqr": 0.918325
+      },
+      "recall": 1.0,
+      "fallback_rate": 0.6,
+      "early_returns": 96,
+      "mean_ratio_to_strongest": 1.8900996741350593,
+      "paired_bootstrap95ci": [
+        1.332514919666236,
+        2.9417127933239153
+      ],
+      "faster_queries": 10
+    },
+    {
+      "budget": 1024,
+      "ms": {
+        "mean": 2.3499991666666666,
+        "median": 1.90335,
+        "p95": 4.992374999999997,
+        "iqr": 1.447675
+      },
+      "recall": 1.0,
+      "fallback_rate": 0.5375,
+      "early_returns": 111,
+      "mean_ratio_to_strongest": 4.218218071480871,
+      "paired_bootstrap95ci": [
+        2.9551671073318717,
+        6.762315125577278
+      ],
+      "faster_queries": 3
+    },
+    {
+      "budget": 4096,
+      "ms": {
+        "mean": 6.216355833333333,
+        "median": 5.498,
+        "p95": 9.826219999999998,
+        "iqr": 2.1753
+      },
+      "recall": 0.9975,
+      "fallback_rate": 0.4375,
+      "early_returns": 135,
+      "mean_ratio_to_strongest": 11.158278218505268,
+      "paired_bootstrap95ci": [
+        7.701316433652351,
+        17.822444507851323
+      ],
+      "faster_queries": 0
+    }
+  ],
+  "audit": "All repaired and exact-baseline answers match independent edge-table oracle; every prefix answer is legal and of size k",
+  "source_hash": "58f167e12c09e159392cd36cf303d6bbc46038f4d8734ba3428105ad0394f925",
+  "csv_hash": "dc4ddd63524d1d0a48a9e1a25aa7532d2094de61d9359bfdb3f85fc195d48bce",
+  "index_hash": "a4b8d6c5701418846ab73f1f1650be241e8e1aa7fd8b3f751cc0e7c0d32676ef",
+  "warnings": [
+    "Top-k controls share float64 scalar dot distance kernel; argpartition preserves all distance ties before ID tie-breaking",
+    "Original HNSW component experiment retained graph-counter instrumentation; this follow-up omits counters to measure actual control-flow overhead",
+    "Comparison with previous component sums is descriptive across separate matched runs, not a paired control"
+  ]
+}

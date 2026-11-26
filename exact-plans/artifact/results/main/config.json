@@ -1,0 +1,54 @@
+{
+  "sizes": [
+    600,
+    1200
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "queries": 12,
+  "repeats": 3,
+  "dimension": 32,
+  "relations": [
+    0,
+    1,
+    0,
+    1
+  ],
+  "k": 10,
+  "stages": [
+    8,
+    24,
+    64
+  ],
+  "graph_quantum": 256,
+  "methods": [
+    "Restart",
+    "GraphShare",
+    "VectorResume",
+    "CoExec",
+    "ColdSuffix",
+    "ForwardGF"
+  ],
+  "family": [
+    "shared_hubs",
+    "distributed"
+  ],
+  "correlated": [
+    true,
+    false
+  ],
+  "timer": "perf_counter_ns outer; setup, query hash, execution, repair, major state cleanup included",
+  "score_timer": "nested scalar squared-L2 math.fsum only; do not add to outer latency",
+  "exclusions": [
+    "input generation",
+    "index construction",
+    "oracle",
+    "serialization",
+    "result CSV writes"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "sealed_at_utc": "2026-10-25T08:03:09.105668+00:00",
+  "scope": "Post-measurement raw-input integrity record; no modification of protocol, environment or raw data",
+  "sha256": {
+    "k_sweep_raw.csv": "6df51efc83136de9b9ca3297310fbd1818122f660b5899b72e7df28b3b6e7d96",
+    "query_diagnostics.csv": "d6d49d970390196d69098be6a874d232aec669c4d4fcbe30f69793caad9ec064",
+    "root_trace.csv": "70a14805f0ff98703e1bc83692c0f686c31167336bc7be3ab9f0e7efb78e22ee",
+    "sensitivity_boundary_anchor_raw.csv": "283bec9fa67359235877154f3d0b4b57281fb3d777d6183bea993486139e2cfd"
+  }
+}

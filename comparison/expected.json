@@ -1,0 +1,427 @@
+{
+  "degree": {
+    "requests": 1440,
+    "historical_cost_cells_checked": 4320,
+    "configurations": 16,
+    "batches": {
+      "historical": {
+        "oracle_three": {
+          "mean_reference_ms": 5.764542545138889,
+          "mean_comparator_ms": 4.319768333333333,
+          "mean_saving_ms": 1.4447742118055555,
+          "median_saving_ms": 0.0,
+          "saving_pct_of_reference_mean": 25.06311993523062,
+          "faster_equal_slower": [
+            252,
+            1188,
+            0
+          ]
+        },
+        "frozen_choices": {
+          "status_quo": {
+            "counts": {
+              "ForwardTopK": 1440
+            },
+            "original_mapping": {
+              "mean_reference_ms": 5.764542545138889,
+              "mean_comparator_ms": 5.764542545138889,
+              "mean_saving_ms": 0.0,
+              "median_saving_ms": 0.0,
+              "saving_pct_of_reference_mean": 0.0,
+              "faster_equal_slower": [
+                0,
+                1440,
+                0
+              ]
+            }
+          },
+          "train_best": {
+            "counts": {
+              "ForwardTopK": 1440
+            },
+            "original_mapping": {
+              "mean_reference_ms": 5.764542545138889,
+              "mean_comparator_ms": 5.764542545138889,
+              "mean_saving_ms": 0.0,
+              "median_saving_ms": 0.0,
+              "saving_pct_of_reference_mean": 0.0,
+              "faster_equal_slower": [
+                0,
+                1440,
+                0
+              ]
+            }
+          },
+          "most_frequent": {
+            "counts": {
+              "ForwardTopK": 1440
+            },
+            "original_mapping": {
+              "mean_reference_ms": 5.764542545138889,
+              "mean_comparator_ms": 5.764542545138889,
+              "mean_saving_ms": 0.0,
+              "median_saving_ms": 0.0,
+              "saving_pct_of_reference_mean": 0.0,
+              "faster_equal_slower": [
+                0,
+                1440,
+                0
+              ]
+            }
+          },
+          "threshold": {
+            "counts": {
+              "ForwardTopK": 1380,
+              "LazyShared": 60
+            },
+            "original_mapping": {
+              "mean_reference_ms": 5.764542545138889,
+              "mean_comparator_ms": 4.918369279861111,
+              "mean_saving_ms": 0.8461732652777778,
+              "median_saving_ms": 0.0,
+              "saving_pct_of_reference_mean": 14.67893173919476,
+              "faster_equal_slower": [
+                58,
+                1380,
+                2
+              ]
+            }
+          },
+          "cost_tree": {
+            "counts": {
+              "ForwardTopK": 1290,
+              "LazyShared": 150
+            },
+            "original_mapping": {
+              "mean_reference_ms": 5.764542545138889,
+              "mean_comparator_ms": 6.408127633333334,
+              "mean_saving_ms": -0.6435850881944445,
+              "median_saving_ms": 0.0,
+              "saving_pct_of_reference_mean": -11.164547458100825,
+              "faster_equal_slower": [
+                75,
+                1290,
+                75
+              ]
+            }
+          },
+          "penalty_tree": {
+            "counts": {
+              "ForwardTopK": 1400,
+              "LazyShared": 40
+            },
+            "original_mapping": {
+              "mean_reference_ms": 5.764542545138889,
+              "mean_comparator_ms": 6.338880786111111,
+              "mean_saving_ms": -0.5743382409722222,
+              "median_saving_ms": 0.0,
+              "saving_pct_of_reference_mean": -9.963292602576919,
+              "faster_equal_slower": [
+                8,
+                1400,
+                32
+              ]
+            }
+          },
+          "uncertainty_tree": {
+            "counts": {
+              "ForwardTopK": 1400,
+              "LazyShared": 40
+            },
+            "original_mapping": {
+              "mean_reference_ms": 5.764542545138889,
+              "mean_comparator_ms": 6.338880786111111,
+              "mean_saving_ms": -0.5743382409722222,
+              "median_saving_ms": 0.0,
+              "saving_pct_of_reference_mean": -9.963292602576919,
+              "faster_equal_slower": [
+                8,
+                1400,
+                32
+              ]
+            }
+          }
+        }
+      },
+      "joint": {
+        "oracle_three": {
+          "mean_reference_ms": 5.859508391666667,
+          "mean_comparator_ms": 4.288842713194445,
+          "mean_saving_ms": 1.5706656784722222,
+          "median_saving_ms": 0.0,
+          "saving_pct_of_reference_mean": 26.80541734023296,
+          "faster_equal_slower": [
+            267,
+            1173,
+            0
+          ]
+        },
+        "frozen_choices": {
+          "status_quo": {
+            "counts": {
+              "ForwardTopK": 1440
+            },
+            "original_mapping": {
+              "mean_reference_ms": 5.859508391666667,
+              "mean_comparator_ms": 5.859508391666667,
+              "mean_saving_ms": 0.0,
+              "median_saving_ms": 0.0,
+              "saving_pct_of_reference_mean": 0.0,
+              "faster_equal_slower": [
+                0,
+                1440,
+                0
+              ]
+            },
+            "heap_mapping": {
+              "mean_reference_ms": 5.859508391666667,
+              "mean_comparator_ms": 5.859508391666667,
+              "mean_saving_ms": 0.0,
+              "median_saving_ms": 0.0,
+              "saving_pct_of_reference_mean": 0.0,
+              "faster_equal_slower": [
+                0,
+                1440,
+                0
+              ],
+              "omit_one_configuration_saving_pct_range": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "train_best": {
+            "counts": {
+              "ForwardTopK": 1440
+            },
+            "original_mapping": {
+              "mean_reference_ms": 5.859508391666667,
+              "mean_comparator_ms": 5.859508391666667,
+              "mean_saving_ms": 0.0,
+              "median_saving_ms": 0.0,
+              "saving_pct_of_reference_mean": 0.0,
+              "faster_equal_slower": [
+                0,
+                1440,
+                0
+              ]
+            },
+            "heap_mapping": {
+              "mean_reference_ms": 5.859508391666667,
+              "mean_comparator_ms": 5.859508391666667,
+              "mean_saving_ms": 0.0,
+              "median_saving_ms": 0.0,
+              "saving_pct_of_reference_mean": 0.0,
+              "faster_equal_slower": [
+                0,
+                1440,
+                0
+              ],
+              "omit_one_configuration_saving_pct_range": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "most_frequent": {
+            "counts": {
+              "ForwardTopK": 1440
+            },
+            "original_mapping": {
+              "mean_reference_ms": 5.859508391666667,
+              "mean_comparator_ms": 5.859508391666667,
+              "mean_saving_ms": 0.0,
+              "median_saving_ms": 0.0,
+              "saving_pct_of_reference_mean": 0.0,
+              "faster_equal_slower": [
+                0,
+                1440,
+                0
+              ]
+            },
+            "heap_mapping": {
+              "mean_reference_ms": 5.859508391666667,
+              "mean_comparator_ms": 5.859508391666667,
+              "mean_saving_ms": 0.0,
+              "median_saving_ms": 0.0,
+              "saving_pct_of_reference_mean": 0.0,
+              "faster_equal_slower": [
+                0,
+                1440,
+                0
+              ],
+              "omit_one_configuration_saving_pct_range": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "threshold": {
+            "counts": {
+              "ForwardTopK": 1380,
+              "LazyShared": 60
+            },
+            "original_mapping": {
+              "mean_reference_ms": 5.859508391666667,
+              "mean_comparator_ms": 4.958947002083334,
+              "mean_saving_ms": 0.9005613895833333,
+              "median_saving_ms": 0.0,
+              "saving_pct_of_reference_mean": 15.369231160486136,
+              "faster_equal_slower": [
+                58,
+                1380,
+                2
+              ]
+            },
+            "heap_mapping": {
+              "mean_reference_ms": 5.859508391666667,
+              "mean_comparator_ms": 4.779322184722222,
+              "mean_saving_ms": 1.0801862069444443,
+              "median_saving_ms": 0.0,
+              "saving_pct_of_reference_mean": 18.43475825515796,
+              "faster_equal_slower": [
+                59,
+                1380,
+                1
+              ],
+              "omit_one_configuration_saving_pct_range": [
+                16.942771255206527,
+                18.872614870069874
+              ]
+            }
+          },
+          "cost_tree": {
+            "counts": {
+              "ForwardTopK": 1290,
+              "LazyShared": 150
+            },
+            "original_mapping": {
+              "mean_reference_ms": 5.859508391666667,
+              "mean_comparator_ms": 6.495126415972222,
+              "mean_saving_ms": -0.6356180243055556,
+              "median_saving_ms": 0.0,
+              "saving_pct_of_reference_mean": -10.847633996215878,
+              "faster_equal_slower": [
+                76,
+                1290,
+                74
+              ]
+            },
+            "heap_mapping": {
+              "mean_reference_ms": 5.859508391666667,
+              "mean_comparator_ms": 6.194183043055555,
+              "mean_saving_ms": -0.3346746513888889,
+              "median_saving_ms": 0.0,
+              "saving_pct_of_reference_mean": -5.7116506883898275,
+              "faster_equal_slower": [
+                93,
+                1290,
+                57
+              ],
+              "omit_one_configuration_saving_pct_range": [
+                -8.056367619013777,
+                -2.3761347868858715
+              ]
+            }
+          },
+          "penalty_tree": {
+            "counts": {
+              "ForwardTopK": 1400,
+              "LazyShared": 40
+            },
+            "original_mapping": {
+              "mean_reference_ms": 5.859508391666667,
+              "mean_comparator_ms": 6.3722519180555555,
+              "mean_saving_ms": -0.5127435263888889,
+              "median_saving_ms": 0.0,
+              "saving_pct_of_reference_mean": -8.75062363795071,
+              "faster_equal_slower": [
+                8,
+                1400,
+                32
+              ]
+            },
+            "heap_mapping": {
+              "mean_reference_ms": 5.859508391666667,
+              "mean_comparator_ms": 6.239185774305556,
+              "mean_saving_ms": -0.3796773826388889,
+              "median_saving_ms": 0.0,
+              "saving_pct_of_reference_mean": -6.479679817147496,
+              "faster_equal_slower": [
+                10,
+                1400,
+                30
+              ],
+              "omit_one_configuration_saving_pct_range": [
+                -9.139684043801473,
+                -0.5799593694792595
+              ]
+            }
+          },
+          "uncertainty_tree": {
+            "counts": {
+              "ForwardTopK": 1400,
+              "LazyShared": 40
+            },
+            "original_mapping": {
+              "mean_reference_ms": 5.859508391666667,
+              "mean_comparator_ms": 6.3722519180555555,
+              "mean_saving_ms": -0.5127435263888889,
+              "median_saving_ms": 0.0,
+              "saving_pct_of_reference_mean": -8.75062363795071,
+              "faster_equal_slower": [
+                8,
+                1400,
+                32
+              ]
+            },
+            "heap_mapping": {
+              "mean_reference_ms": 5.859508391666667,
+              "mean_comparator_ms": 6.239185774305556,
+              "mean_saving_ms": -0.3796773826388889,
+              "median_saving_ms": 0.0,
+              "saving_pct_of_reference_mean": -6.479679817147496,
+              "faster_equal_slower": [
+                10,
+                1400,
+                30
+              ],
+              "omit_one_configuration_saving_pct_range": [
+                -9.139684043801473,
+                -0.5799593694792595
+              ]
+            }
+          }
+        },
+        "oracle_four": {
+          "mean_reference_ms": 5.859508391666667,
+          "mean_comparator_ms": 3.8374598069444446,
+          "mean_saving_ms": 2.022048584722222,
+          "median_saving_ms": 0.0,
+          "saving_pct_of_reference_mean": 34.508843567797584,
+          "faster_equal_slower": [
+            345,
+            1095,
+            0
+          ]
+        },
+        "incremental_oracle_saving_ms": 0.45138290625
+      }
+    }
+  },
+  "prospective": {
+    "requests": 3200,
+    "fixed_pair_oracle": {
+      "mean_reference_ms": 2.665464918125,
+      "mean_comparator_ms": 2.5556678184375,
+      "mean_saving_ms": 0.1097970996875,
+      "median_saving_ms": 0.0,
+      "saving_pct_of_reference_mean": 4.1192476007050915,
+      "faster_equal_slower": [
+        765,
+        2435,
+        0
+      ]
+    }
+  }
+}

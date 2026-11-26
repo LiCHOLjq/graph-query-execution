@@ -1,0 +1,26 @@
+import datetime,hashlib,json
+from pathlib import Path
+P=Path(__file__).resolve().parent.parent
+out=P/'protocol.json'
+if out.exists():raise SystemExit('Protocol already exists; refusing to replace it.')
+files=[*sorted((P/'source').glob('*')),P/'benchmark',*sorted((P/'inputs').glob('*'))]
+protocol={
+ 'frozen_at_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),
+ 'status':'locally frozen before formal measurement; not externally preregistered',
+ 'question':'M2: does exact incremental heap ordering change the execution boundary relative to full sort and both partial-top-k materializers?',
+ 'methods':['ForwardTopK','ReverseRecursiveTopK','LazyShared','LazyHeap'],
+ 'heap':'Score every rankable vertex exactly once; std::make_heap with greater<pair<double,int>> builds a min-heap. Pop the exact next (squared-distance,identifier) key, share reverse memoized proofs, stop at k positives or heap exhaustion. No eligible count/set/certificate is exposed to execution.',
+ 'cohorts':{
+  'main':{'queries':1500,'n':[1000,10000,100000],'families':['sparse','uniform','dense','fanout','fanin'],'seeds':list(range(10)),'h':[2,4,6],'k':[1,10,100],'d':64,'additional':'one h4,k10 explicit-empty origin query per graph; other queries Gaussian; unchanged historical generator'},
+  'degree':{'queries':1440,'n':[10000,100000],'degree':[4,6,8,10,12,16,24,32],'seeds':list(range(10)),'h':[2,4,6],'k':[1,10,100],'d':64,'query':'Gaussian; unchanged degree generator'},
+  'matched':{'queries':60,'n':100000,'degree':8,'h':6,'d':64,'k':[1,2,3,5,10,100],'seeds':list(range(10)),'query':'same graph, vector query and predicate across k per seed; historical chosen cell remains exploratory'},
+  'dimension':{'queries':240,'n':10000,'d':[16,256,768],'families':['uniform','dense'],'h':[2,6],'k':10,'seeds':list(range(10)),'conditions':['origin','gaussian'],'pairing':'topology reset after corpus-vector generation; two query conditions interleaved in randomized per-graph order'},
+  'real':{'queries':80,'dataset':'persisted FB15k-237 inverse-augmented training graph and lexical SVD128 vectors; same fixed 80 queries'}},
+ 'expected':{'queries':3320,'plan_cells':13280,'timed_repetitions':3,'timed_executions':39840,'untimed_warmups':13280,'omissions':0},
+ 'timing':{'host':'local Ubuntu WSL, CPU4 virtual affinity','flags':'-O3 -DNDEBUG -std=c++17 -Wall -Wextra','timer':'one outer steady_clock interval; no per-distance/subphase timers','included':['fresh proof arrays and score/order storage','all scoring and ordering','graph checks','internal state destruction'],'excluded':['input generation/loading','oracle','fingerprints','correctness checks','CSV writing','returned-answer destruction'],'randomization':'fixed mt19937 seeds shuffle graph groups, query configurations within graph, and all four methods within each warmup/repetition; all four methods are remeasured together','quantum_edge_examinations':256,'limitations':'virtual affinity does not guarantee exclusive physical core or fixed clock frequency; do not pool new absolute times with historical cohorts'},
+ 'verification':{'oracle':'independent flat-edge relation scan for eligible set; same scalar double numeric contract and identifier tie rule','every_execution':'each warmup and measured result must equal exact oracle answer; each repetition/warmup must have identical full-sort/heap answer and root-sequence digest, root count, edges, states, distances and pauses; heap pops equal root checks','tests':'20736 exact plan comparisons,1296 complete heap/full-sort order checks, including dense all-zero ties, cycles, empty and underfilled answers and quantum1/2/7/256','fingerprints':'FNV64 for graph/vector/query/eligible/answer identity, SHA256 for file integrity'},
+ 'analysis':{'aggregation':'median of three repetitions per configuration; retain individual rows and all losses','winner_tables':'four-way winners and repeated historical three-way winners within this NEW batch; selectivity bins 0,(0,.01),[.01,.1),[.1,.5),[.5,.9),[.9,.9998),[.9998,1]','matched_k':'paired median ratio to faster materializer, full-sort/heap paired ratios, wins; 10000 paired seed-cluster bootstrap samples, seed20261028','dimension':'report each origin/Gaussian,d stratum: wins/40, paired median and IQR plus ratio of mean query medians, and dense h6 subgroup','dependencies':'main600 design predicate slots,573 distinct structural predicates; k values share predicates, sparse empty predicates repeat across seeds; degree480 design predicates and historical overlaps; dimension40 structural graph/predicate units reused across dimensions/conditions; no broad population claims','real':'all80 and49 without an immediately adjacent inverse relation pair; do not construct new query subsets from winners','diagnostic_model':'heap ordering work O(N+r log N) is analytic, timings must be measured; no online decision-rule claim'},
+ 'pilot':'20 configurations/240 timings used only for debugging and runtime estimation, excluded from all formal summaries',
+ 'source_and_input_sha256':{str(x.relative_to(P)):hashlib.sha256(x.read_bytes()).hexdigest() for x in files if x.is_file()}}
+out.write_text(json.dumps(protocol,indent=2))
+print('Frozen protocol: 3320 configurations, 39840 timed executions, zero omissions.')

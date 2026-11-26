@@ -1,0 +1,15 @@
+{
+  "timed_rows_checked": 39840,
+  "graph_fingerprints_and_predicates": {"main": [123, 573], "degree": [160, 480], "dimension": [20, 40], "matched": [10, 10]},
+  "main_unsaturated": 990,
+  "main_unsaturated_winners": {"ForwardTopK": 903, "LazyHeap": 87},
+  "main_unsaturated_heap_wins_at_or_above_90pct": 86,
+  "degree_unsaturated": 1083,
+  "degree_unsaturated_winners": {"ForwardTopK": 1003, "LazyHeap": 80},
+  "lowest_degree_heap_winning_selectivity_pct": 36.00336,
+  "real_winners": {"ForwardTopK": 79, "ReverseRecursiveTopK": 1},
+  "heap_over_best_materializer_ratio_of_means_median_q1_q3": {
+    "all_main": [7.116, 76.477, 0.982, 698.163],
+    "nonempty_unsaturated_main": [41.152, 150.683, 16.430, 772.092]
+  }
+}

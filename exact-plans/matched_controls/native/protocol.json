@@ -1,0 +1,97 @@
+{
+  "fixed_before_measurement_at_utc": "2026-10-25T07:52:27.516124+00:00",
+  "purpose": "M13 prespecified follow-up to a post-hoc SENSITIVITY boundary cell; no externally preregistered or independently selected boundary claim",
+  "cohort": "MATCHED boundary k sweep, local Ubuntu WSL fallback after recorded authorized-server SSH timeout",
+  "parameters": {
+    "n": 100000,
+    "d": 64,
+    "degree_per_relation": 8,
+    "h": 6,
+    "word": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "k": [
+      1,
+      2,
+      3,
+      5,
+      10,
+      100
+    ],
+    "methods": [
+      "ForwardTopK",
+      "ReverseRecursiveTopK",
+      "LazyShared"
+    ],
+    "warmups_per_method_query": 1,
+    "timed_repetitions": 3,
+    "quantum": 256
+  },
+  "denominators": {
+    "query_configurations": 60,
+    "seed_predicate_clusters": 10,
+    "plan_cells": 180,
+    "timed_executions": 540,
+    "new_k_query_configurations": 30,
+    "new_k_plan_cells": 90,
+    "new_k_timed_executions": 270,
+    "matched_anchor_query_configurations": 30,
+    "matched_anchor_plan_cells": 90,
+    "matched_anchor_timed_executions": 270
+  },
+  "generation": "Unchanged SENSITIVITY generate_degree: Gaussian corpus vectors then two relation layers with 8 uniform successors per vertex except n-1; retain multiedges; anchor=(seed*7919+37)%(n-1); Gaussian query mt19937(seed*1697+h). One graph/predicate/query vector reused across all six k values.",
+  "timing": {
+    "cpu": 4,
+    "flags": "-O3 -DNDEBUG -std=c++17 -Wall -Wextra",
+    "order": "seed ascending; k ascending; one warmup in method-list order; each measured repetition uses original deterministic shuffled method order mt19937(seed*10007+query_id*19+rep)",
+    "include": "fresh request allocations and every operation in the unchanged execute kernel",
+    "exclude": "graph/vector generation, oracle, CSV writes, diagnostic root trace, returned answer destruction",
+    "coordination": "Only experiments subagent executes timed experiments; no other formal benchmark overlaps",
+    "no_pooling": "Do not pool MATCHED absolute times with NATIVE or SENSITIVITY. k1/10/100 are remeasured within this cohort.",
+    "limitations": "WSL virtual CPU affinity does not enforce exclusive physical-core ownership or stable frequency; k order not randomized."
+  },
+  "exactness": "Original independent flat-edge membership oracle and scalar distance/identifier ranking contract. Every warmup and timed result checked; mismatch aborts. Original 7776 exact tests plus 324 small-graph checks including the new k, empty anchor and all-zero ties.",
+  "diagnostics": "Untimed per-root shared reverse traversal after all k timings for each seed: first eligible rank, first-root dependency closure, new/cumulative edge and state counts. Exact sorted truth checked at every requested k. FNV64 fingerprints are noncryptographic invariant fingerprints; SHA256 used for artifact integrity.",
+  "planned_analysis": {
+    "per_configuration": "median of three repetitions per method; retain all ten seeds, including losses",
+    "paired_ratio": "LazyShared median divided by min(ForwardTopK median,ReverseRecursiveTopK median), paired within seed and k",
+    "bootstrap": "10000 percentile bootstrap resamples of ten seed clusters with RNG seed 20261025; the same seed resample indexes are used for all k; report median paired ratio and ratio to k1 changes",
+    "first_repetition": "retain all three methods and counters for all ten k1 seeds, for both historical SENSITIVITY and new MATCHED; never pool historical times",
+    "plot": "Left: SENSITIVITY k1 all ten seed Lazy/Forward ratios versus lazy edge count with seed labels. Right: MATCHED all six k values and all ten seed Lazy/best-materializer ratios plus paired median/cluster CI and ratio=1 line.",
+    "invariants": [
+      "540 unique rows; 60 configurations; 180 plan cells; repeats 0,1,2",
+      "exact flags all one and positive times",
+      "deterministic counters across repetitions",
+      "graph/predicate/eligible set/vector/query fingerprints fixed across k within seed",
+      "Forward/Reverse graph counters invariant across k; Lazy prefix counters monotone in k",
+      "Lazy root_checks equal exact kth eligible rank; trace counters equal raw measured counters",
+      "SENSITIVITY anchor k1/10/100 membership and deterministic counters match unchanged generator/kernels"
+    ]
+  },
+  "interpretation": "First eligible rank and dependency-closure work are outcome diagnostics, not pre-query free inputs; a selectivity estimate alone is not a threshold or sufficient trigger. Report empirical k-specific wins without generalizing finite-grid disappearance.",
+  "source_sha256": {
+    "k_sweep.cpp": "f3b73e028e1675a4fc9dc522886305be793ab0b31fd257b894e80215d16171f0",
+    "strong_base.cpp": "e2526a72a81fac143e001880095176c3149b5ea06e0b8afed1c36ac5e956b2a8",
+    "clock_probe.cpp": "d10b7b6f524619f60f4b8b0188e948f9296c98409b5ba2e0f13d0cbbfdb5b5ad",
+    "environment.py": "b2024a181d1f3817eedec72c3b9e2de11e914aa4104a24836a58dfc80bcd13c7",
+    "run_local.sh": "66031d566078913a07c3866e3cbf44c62287e031a0ea262b598f3bad11082e4e",
+    "freeze_protocol.py": "a02d4361b8e085a1ac3b6a0bc020803565135fad65826c2481bced73e9b3b0e1"
+  }
+}

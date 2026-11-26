@@ -1,0 +1,41 @@
+{
+  "n": 600,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "queries": 2,
+  "repeats": 3,
+  "schedules": [
+    [
+      8,
+      24,
+      64
+    ],
+    [
+      16,
+      48,
+      128
+    ]
+  ],
+  "quanta": [
+    0,
+    256,
+    1024
+  ],
+  "factors": [
+    "graph_store_shared",
+    "ANN_frontier_retained",
+    "repair_scores_reused"
+  ],
+  "gc": "default enabled",
+  "interpretation": "ANN retention necessarily retains scores used internally; repair reuse is independently toggled."
+}

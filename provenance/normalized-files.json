@@ -1,0 +1,265 @@
+{
+  "description": "Historical source and distributed SHA-256 values for files with normalized labels, comments, paths or dependent checksums. Numeric observations and fold membership are retained. Source columns use pre-normalization public file bytes.",
+  "files": [
+    {
+      "path": "exact-plans/README.md",
+      "source_sha256": "c95b7b0d7f84a02b962a01d32c7e80bd6509e91302b8c8ecf65e7ff71b11d8c5",
+      "public_sha256": "cb67177f425d883f049447f55773b44b6495ff2c491da16dcc04b12cd7b49e90"
+    },
+    {
+      "path": "exact-plans/UPSTREAM_SOURCE_SNAPSHOTS/sensitivity_controls/real/benchmark_filtered.py",
+      "source_sha256": "1742435d775e9e485ee2e25f6959387e65d8f694765357ef83daefff6af8fb09",
+      "public_sha256": "70feac680610530c3613ca5bb6c2d65ac502e9580586c245c7a5de27ee481e2d"
+    },
+    {
+      "path": "exact-plans/artifact/engine.py",
+      "source_sha256": "892c605b98a24a57cc033b7e217464b7e2d9813af6295c97376dac8d1679471f",
+      "public_sha256": "919c0672e8557606fc7d9c794d9b825aec620fd33d233e6f5aed4aae1ce29712"
+    },
+    {
+      "path": "exact-plans/artifact/results/main/environment.json",
+      "source_sha256": "19bf9352cf8237efddda43819307564383f3aadbd03fdc7e52d863e2e658c7ce",
+      "public_sha256": "5369622dfb219a794dec024708ce95c0a982ae68205625a78e45ad20d21a5369"
+    },
+    {
+      "path": "exact-plans/matched_controls/callbacks/analyze_callbacks.py",
+      "source_sha256": "bc1888713be55ae8d9e59c7c7ecc429eb904a5b6bb64b73c326ba2f6f94ae308",
+      "public_sha256": "6d92697d0dce0f2b36a7e60706898b77724f38b01db559ab39b0d06b63ee57ef"
+    },
+    {
+      "path": "exact-plans/matched_controls/native/analyze.py",
+      "source_sha256": "740a7cce3a6a6b3569362ccbecb14b50a7094d03072ac5aefe0f138795b1148c",
+      "public_sha256": "098d2013bfc8fb55ab92dbc9e5222590910e74df2b89a1af70b2dc390b721c7e"
+    },
+    {
+      "path": "exact-plans/matched_controls/native/environment.json",
+      "source_sha256": "c928a766864151f1f666fe5c3e0de2c274d7bc9581dee1d316f63d95f23a5011",
+      "public_sha256": "5dd2c3721a4a6fe202cb8734cccbc468420688d72ea6b6e826cfe6e11c7e2ff8"
+    },
+    {
+      "path": "exact-plans/matched_controls/native/environment.py",
+      "source_sha256": "bff442467a431c85e6f4ebd381b77f4c27d3fa056237b77b49e46fc3cacbed5e",
+      "public_sha256": "b2024a181d1f3817eedec72c3b9e2de11e914aa4104a24836a58dfc80bcd13c7"
+    },
+    {
+      "path": "exact-plans/matched_controls/native/historical_reference.json",
+      "source_sha256": "aa01d15e2034d89ef81e240859343034fb51f93f539ce1a522578ee00e9a304e",
+      "public_sha256": "ad2009c2b02548819df599ff66f34583f5f554f70958c25180493f8464a4b0d5"
+    },
+    {
+      "path": "exact-plans/matched_controls/native/k_sweep.cpp",
+      "source_sha256": "4b633a2bea3926dbd416975fd6131a24b9dfb026ca34cf810ee48af9bc5e46d5",
+      "public_sha256": "f3b73e028e1675a4fc9dc522886305be793ab0b31fd257b894e80215d16171f0"
+    },
+    {
+      "path": "exact-plans/matched_controls/native/k_sweep_raw.csv",
+      "source_sha256": "35d4bd8faa37dcb2724c50d15b5bf61278556e0dac569e7280be8baf48177803",
+      "public_sha256": "6df51efc83136de9b9ca3297310fbd1818122f660b5899b72e7df28b3b6e7d96"
+    },
+    {
+      "path": "exact-plans/matched_controls/native/matched_boundary_first_rep.csv",
+      "source_sha256": "ddadaf3bf658e83dcab5ca21893df191926cf2f5f3bc4bc2ddfff92cb3cd81ce",
+      "public_sha256": "2221c9f659171efc979c97686074b0f53566769774adf6a22622b07c12446904"
+    },
+    {
+      "path": "exact-plans/matched_controls/native/matched_boundary_seed_counters.csv",
+      "source_sha256": "fedee3c934beff7dea752dc50d7abc1cdd636dde1176cd36075688539e4a170a",
+      "public_sha256": "811359b82393225f36a98d214b131ed17c9ec7080c38551d6ecd5d05a6e8669b"
+    },
+    {
+      "path": "exact-plans/matched_controls/native/matched_k1_first_repetition_all_methods.csv",
+      "source_sha256": "4e5f4e80df35ca8363433a332943b328177923836b777ed25de41a891141f1a1",
+      "public_sha256": "1edcc4ab913a28fe83644dfb68f1ee3b8415d80d50d0d283a35a1417f92ce4ce"
+    },
+    {
+      "path": "exact-plans/matched_controls/native/measurement_integrity.json",
+      "source_sha256": "6373c4ca7552bbfcae81ca2dd115afa37374328711ac24ffb0b5b9c5d6bfeb27",
+      "public_sha256": "0d5f0d33160413953bfec5d8def21ddbd341f49c28aac3febc6e9f042ff758dd"
+    },
+    {
+      "path": "exact-plans/matched_controls/native/protocol.json",
+      "source_sha256": "10fd2929c9333d7197789f759f0f8ddc9f1aa0464496c7fe786546b590651a90",
+      "public_sha256": "282a73691f26b0108c70f88736edf965a1bd57a7f01a160af5e60222bce2557c"
+    },
+    {
+      "path": "exact-plans/matched_controls/native/sensitivity_boundary_first_rep.csv",
+      "source_sha256": "78a60d56cad0ddff71b3aa9406f5f253e91916fec89ab2905563289d86a8df7d",
+      "public_sha256": "c0c51a4c3140bb7573b5622a4bd0eb88ba2ca20b30657c51b928f0cb24756b47"
+    },
+    {
+      "path": "exact-plans/matched_controls/native/sensitivity_boundary_seed_counters.csv",
+      "source_sha256": "83492318a55d55508365499d8e847cb549085118d1b59f40fe10868ddcf9f3cd",
+      "public_sha256": "a6c07cb6f4a1a8138f2d307f226e52724a9c9da7fa7913fe48092c5b79362b23"
+    },
+    {
+      "path": "exact-plans/native_comparisons/analyze_native.py",
+      "source_sha256": "09f5d694a30e8d43eeed5c50b888faa09037b14c9e891c40d65f0a7b4765d70e",
+      "public_sha256": "0e478db67ad92000a385481ac202fca35db342c05c4179267dd6a343eb583f70"
+    },
+    {
+      "path": "exact-plans/native_comparisons/reanalyze.py",
+      "source_sha256": "8450b9f41cf508c17525de0a8b393b659c390727c56451771493c43f299b7019",
+      "public_sha256": "6693bf7a78357f4db7740137c28ba8a1aba44ba3622453ce5abb176b62cd2e0a"
+    },
+    {
+      "path": "exact-plans/ordered_access/analyze.py",
+      "source_sha256": "2d58edd121243b13f4679f148482fab690f6625db5f57ea2a62340a90a192da0",
+      "public_sha256": "e8986e4e943ffc9e258f9e8225e10c02054ef92c44790536546a54ef5b03dfff"
+    },
+    {
+      "path": "exact-plans/provenance_checks.py",
+      "source_sha256": "f6ae230567cfaeed57079099b6e8a2e2dd31dc3cceb01780cf5dbd36e7ace24d",
+      "public_sha256": "71020a8f8b43a25c204df73d515d0581980d620845eaf4ae601e44bd55a7b907"
+    },
+    {
+      "path": "exact-plans/sensitivity_controls/analyze_selectivity.py",
+      "source_sha256": "d0f31acb62c745b33aaf24857cd6f61e344147dc90220e2f51d11e24c0af3913",
+      "public_sha256": "e18c6b6740dd7f64ca5734f1e087cb6fda6c77249989e9632cc8c2db178907d2"
+    },
+    {
+      "path": "exact-plans/sensitivity_controls/native/allocation_control.cpp",
+      "source_sha256": "c65359a375edbde8a7a63c9c7f3d89af51fe844656d915b51f68eaa315644893",
+      "public_sha256": "e0e3879a9a4eaa29eb7ea794f165cf98721a2ea07071a2b5d2312bf6bef7d4d4"
+    },
+    {
+      "path": "exact-plans/sensitivity_controls/native/analyze.py",
+      "source_sha256": "bdceadaf552a6cd7328bea8feece445696afb08e3de8477540a136703e555c51",
+      "public_sha256": "c88fa34207a745a79df2a3830615a7f1f8641fcc9faec0fe90eb887a7bfd2f22"
+    },
+    {
+      "path": "exact-plans/sensitivity_controls/native/degree_sweep.cpp",
+      "source_sha256": "e8ca5c2c71dced4a0d0d13d6edb934a96ced5e3da5df7424bc5442981ff71e62",
+      "public_sha256": "d75fe25a36624d49b771829f51211654161087a1bc0b41fa2eed12e792edcabe"
+    },
+    {
+      "path": "exact-plans/sensitivity_controls/native/environment.json",
+      "source_sha256": "d8f4c3459f0dae0c3cfc98cf2c7c06fbfe9edb7386ac27ae7fdb4d0c711747a0",
+      "public_sha256": "81775bd1d24b1747748e344f899d400fe66f9b887a833c1d1e662965f8a58ef1"
+    },
+    {
+      "path": "exact-plans/sensitivity_controls/native/environment.py",
+      "source_sha256": "a18d00e6c1b50e88ecd4eb61c918aeea367c9c20c8f4895b0a04d4953456f8c8",
+      "public_sha256": "116cc713b3962c1fc8c2573e82bf90a448ecf911e56bba187d5444f109cab181"
+    },
+    {
+      "path": "exact-plans/sensitivity_controls/native/protocol.json",
+      "source_sha256": "e0538bdfa0c4a65591f821c2f45a3125331f7833a54ccfd83977c7b8777bdbb9",
+      "public_sha256": "b8d6c31d57e7adb5ef9ba1fcd1cc7206444a17010415ac6c9c6e0297ed560cb2"
+    },
+    {
+      "path": "exact-plans/sensitivity_controls/plot_selectivity.py",
+      "source_sha256": "a099c4a9113be4fd154f779964fd72350ac7b3da7444cf6d88b32a9bf48e1a47",
+      "public_sha256": "34cd5810fde4b44fea1b459f3d683311c2836446e2290610d34610a10c4a565c"
+    },
+    {
+      "path": "exact-plans/sensitivity_controls/real/analysis.json",
+      "source_sha256": "400ca0546fa090f559b2518715d32192c2da24f9079bd970e8876be4232347f0",
+      "public_sha256": "e8472436c37bd8b5a7a019c5f969bed9f638cb616c3aacf7fdabf7b8a5204c60"
+    },
+    {
+      "path": "exact-plans/sensitivity_controls/real/analyze_filtered.py",
+      "source_sha256": "f3c14213dc61991b9e14d7745b755eb555baa9b5085df81045234115e6c20366",
+      "public_sha256": "42b94651da42965b83f19530adc9aa6456897c02e1030c0416d57ba2527d01b7"
+    },
+    {
+      "path": "exact-plans/sensitivity_controls/real/audit.json",
+      "source_sha256": "7a0d9cd96acad2922cae954e298c37faf979887502d02a6265dd3163d1bf29dc",
+      "public_sha256": "8f7bbeee274227ac083efa4eb2c7d1a123147dd3bbcf109f2d7d6a23be133b7d"
+    },
+    {
+      "path": "exact-plans/sensitivity_controls/real/audit_filtered.py",
+      "source_sha256": "8cbdcc8b2172f2bfa0db90ffaeabb284b9c1b0276f22f79c6775e16531cec150",
+      "public_sha256": "5d96a597076c98f2129fb63f16c1528990381d169774fcb332315bcf5d06c2ee"
+    },
+    {
+      "path": "exact-plans/sensitivity_controls/real/benchmark_filtered.py",
+      "source_sha256": "7f369378d90d65a6454706dd516e1dbd842c2dc337b8de347ebb545b0b261e0d",
+      "public_sha256": "373f0ebf59c951630c029d1ce62a9e2210ff50807484770b0cd3145b23ae3d32"
+    },
+    {
+      "path": "exact-plans/sensitivity_controls/real/environment.json",
+      "source_sha256": "e45b3d1cde98093aaa8b9d2b40d23420583341d7dc4211d24d8a7fc7f6bb9a95",
+      "public_sha256": "559534592d907a38ee79b3db331b51dcc1e41173881c0610a95354dd7cb4b1f6"
+    },
+    {
+      "path": "policy-selection/README.md",
+      "source_sha256": "9b5e112746b8b0e1e16889f54310ea145bfb9eff3bdd90b7c50f753784e35306",
+      "public_sha256": "c743792a5a0aeb8e719ecc1e56507da1b42f27c7f7a7f38e17967ed505a328e1"
+    },
+    {
+      "path": "policy-selection/analysis/leakage/reanalyze.py",
+      "source_sha256": "11ff02eada802c8bdb3b499fe3c9ef9eb625705fbe8df3c6f648e4471233aaf2",
+      "public_sha256": "c277affb52807d7574826405744b140a5b10890a47b3e7626f5c300eca92622d"
+    },
+    {
+      "path": "policy-selection/analysis/retained/data/costs.csv",
+      "source_sha256": "31064c6c199c3a502ce196b328d73916cef790113126ba5e712b752a401202db",
+      "public_sha256": "f26c993cf224618f42763b9a0c8904546fb4276bf816cc3530be8eb78dd585dc"
+    },
+    {
+      "path": "policy-selection/analysis/retained/data/costs_bcr.csv",
+      "source_sha256": "be5959fdd093558c5f623a1c27e800013bd587dcac982b0c4e5339ed0017c538",
+      "public_sha256": "a3b37407fb3f5239a6ff959ccbcbb89c1f4aa447c65eeb7463f482de7590bde7"
+    },
+    {
+      "path": "policy-selection/analysis/retained/data/folds.csv",
+      "source_sha256": "13163a789f37498c8c9ae88f25e55fecb63e3a3d7a106ba4ab674020820f37a5",
+      "public_sha256": "8c25c97a59b4d31bec67a33b3e03c9b08418da13f01a9a686ff3f75318665e80"
+    },
+    {
+      "path": "policy-selection/analysis/retained/data/native_overhead.csv",
+      "source_sha256": "0608555a015fbfcd4453a180b9698d095e97ba4ea1357f1bb1578dfaadc57833",
+      "public_sha256": "1d26b4b49956b03f7e631dcb364bad822478fde9be7272ec2e3b11284cf95481"
+    },
+    {
+      "path": "policy-selection/analysis/retained/data/predictions.csv",
+      "source_sha256": "78f681f4b5353569d83edd3cac0d53d1af51e8483bc9eeffd6108d631ea90608",
+      "public_sha256": "e910e0c2aaf6f7dd73de061d6890a64d51acf59a2644ae363f6fd8a319f8ca09"
+    },
+    {
+      "path": "policy-selection/analysis/retained/data/router_timings.csv",
+      "source_sha256": "fcff0705500b1af65f6e7ac63ad8a7464cc80243999361f7e897b0b4fa8545c1",
+      "public_sha256": "119efc2102f119e0682a8a0d02a45ffa3fb15cbf7b5b6c9b1cdb470efe09d0de"
+    },
+    {
+      "path": "policy-selection/analysis/retained/data/summary.csv",
+      "source_sha256": "189f07c21a46621defca9d87cc30fa4bdee5194e03376137e7410df71a5dc717",
+      "public_sha256": "3600c220eae5c508e4d882c4061703a08f7753d21ee4624f210bc30da49a2a27"
+    },
+    {
+      "path": "policy-selection/analysis/retained/input_manifest.json",
+      "source_sha256": "b2a94e5f340f19be36751b76166a6b12531cf2284530fde1ada57816e6c607f4",
+      "public_sha256": "547554eadba0398feae22769e9daec89b1d65d3294df9423df45e84510b87cca"
+    },
+    {
+      "path": "policy-selection/analysis/retained/reanalyze.py",
+      "source_sha256": "c355f452de203a8973a09a73c8029b10feb495033bfeaf81d81e9cc1d2ad6009",
+      "public_sha256": "25811aab149be504a08a8806af2f361c2e508a37412cd5c03040c134dced4eac"
+    },
+    {
+      "path": "policy-selection/data/prospective/plan/preanalysis_plan.json",
+      "source_sha256": "cb7ef43e1ba6f2bcc46d5ad8ed3f4c4adf3a30417ca67f73b601559ac970e126",
+      "public_sha256": "8cdde8f001ae593fb60a13824aa66e76280db4a7dfb7996db861a2c40e40c97f"
+    },
+    {
+      "path": "policy-selection/data/prospective/results/environment.json",
+      "source_sha256": "5ce67e806e00175b35f01bcfbc3f63914763c18323e69deb417734643481e914",
+      "public_sha256": "669083c3250d6ba6e337b7a1c32292bda792a96306f41d4e0ee0ee6c2d408ff3"
+    },
+    {
+      "path": "policy-selection/reference/leakage/leakage_folds.csv",
+      "source_sha256": "2e4ed1d899aebd73c8dcc5d91e0326c024de8e1924a4fb3344f1920f883af817",
+      "public_sha256": "c2ffeb545d5aaaf9ab6f719aa8d3858df244384601c260e62244cf9d0b701adc"
+    },
+    {
+      "path": "policy-selection/reference/leakage/leakage_predictions.csv",
+      "source_sha256": "0f3d62bab9bb2c864f99b11f9ea69f889d44bad085d7abc7b40200707409a5e2",
+      "public_sha256": "750e6bac01760802971603d430ec6f745c7aaf63b3733fe262b2b1a3aa24ccfb"
+    },
+    {
+      "path": "policy-selection/reference/leakage/leakage_summary.csv",
+      "source_sha256": "bed158c47cadac8e5d2c7b201e6546ad7eb6ab0826a5db3508a5a322c7873f99",
+      "public_sha256": "921b783a091e76f0959f0f793907a6f4118eaaa5d3671d77cd9d84268ecee397"
+    }
+  ]
+}

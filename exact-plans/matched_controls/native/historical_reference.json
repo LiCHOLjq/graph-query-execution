@@ -1,0 +1,8 @@
+{
+  "path_relative_to_exact_plans": "sensitivity_controls/native/degree_sweep_raw.csv",
+  "source_sha256": "16ed9474b11cafa01265f49607a3871a4e06cd9871dccc727351099f19e5bf94",
+  "selection": "n=100000, family=degree_8, h=6; all ten seeds, k1/10/100, all methods and repetitions; no winner filtering",
+  "retained_rows": 270,
+  "retained_subset_sha256": "283bec9fa67359235877154f3d0b4b57281fb3d777d6183bea993486139e2cfd",
+  "sensitivity_strong_base_sha256": "e2526a72a81fac143e001880095176c3149b5ea06e0b8afed1c36ac5e956b2a8"
+}

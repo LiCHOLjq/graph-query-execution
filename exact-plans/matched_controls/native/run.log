@@ -1,0 +1,34 @@
+done seed=0 queries=6
+done seed=1 queries=12
+done seed=2 queries=18
+done seed=3 queries=24
+done seed=4 queries=30
+done seed=5 queries=36
+done seed=6 queries=42
+done seed=7 queries=48
+done seed=8 queries=54
+done seed=9 queries=60
+ALL_EXACT queries=60 plan_cells=180 timed=540
+	Command being timed: "taskset -c 4 ./k_sweep k_sweep_raw.csv"
+	User time (seconds): 32.91
+	System time (seconds): 0.18
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:33.18
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 123820
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2
+	Minor (reclaiming a frame) page faults: 200271
+	Voluntary context switches: 287
+	Involuntary context switches: 166
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
